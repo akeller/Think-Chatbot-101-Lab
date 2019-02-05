@@ -22,7 +22,13 @@ You have officially completed your lab. You made your first chatbot! Now what?
 
 # Next Steps
 
-You can continue accessing this lab material and your IBM Cloud account even after Think. Take a look at the following patterns and tutorials to make your chatbot more robust and ready to be deployed!
+You can continue accessing this lab material and your IBM Cloud account even after Think. 
+
+This is only part of a chatbot solution; you completed the backend. A typical, fully implemented chatbot solution may look something like this:
+
+![alt text][chatstack]
+
+Take a look at the following patterns and tutorials to make your chatbot more robust and ready to be deployed!
 
 ## Patterns
 
@@ -37,3 +43,28 @@ You can continue accessing this lab material and your IBM Cloud account even aft
 ## Additional Resources
 
 * https://developer.ibm.com/code/exchanges/bots/
+
+
+
+
+
+[dashboardCatalog]: /images/dashboardCatalog.png
+[AIassistant]: /images/AIassistant.png
+[createScreen]: /images/createScreen.png
+[launchTool]: /images/launchTool.png
+[createSkillButton]: /images/createSkillButton.png
+[addDialogSkill]: /images/addDialogSkill.png
+[skillFilled]: /images/skillFilled.png
+[addIntent]: /images/addIntent.png
+[createNewIntent]: /images/createNewIntent.png
+[catalogAI]: /images/catalogAI.png
+[userExamplesIntent]: /images/userExamplesIntent.png
+[entities]: /images/entities.png
+[addEntity]: /images/addEntity.png
+[createNewEntity]: /images/createNewEntity.png
+[entityValues]: /images/entityValues.png
+[dialog]: /images/dialog.png
+[createDialog]: /images/createDialog.png
+[addNode]: /images/addNode.png
+[newNode]: /images/newNode.png
+[chatstack]: /images/chatstack.png
