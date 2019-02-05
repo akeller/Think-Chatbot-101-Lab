@@ -1,4 +1,4 @@
-# Think-Chatbot-101-Lab
+# 101 Lab: Build Your Own Chatbot in 15 Minutes or Less
 
 You should be able to complete this lab in 10-15 minutes! If you'd like to continue working on your chatbot after the lab, there will be additional steps to include more advanced techniques and even deploy.
 
