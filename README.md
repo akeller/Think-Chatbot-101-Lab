@@ -58,12 +58,53 @@ Click ```Add intent```.
 
 ![alt text][addIntent]
 
+Notice the ```Intent name``` field is denoted with a hash or # sign. 
 
+Name your intent ```createTicket``` as this is the best way to describe the user's goal.
+
+![alt text][createNewIntent]
+
+Provide user examples and hit Enter to see them appear in the list below. Think through how you might prompt someone in a conversation to indicate to them that you need to create a support ticket. 
+
+When finished, hit the back arrow next to the intent name at the top.
+
+![alt text][userExamplesIntent]
+
+You now see your intent listed below. Let's move on to entities.
 
 ## Build Entities
 
+With the intent you just created, we now know the user is looking to create a support ticket. Simply creating a ticket will not be enough, we need more information.
+
+Click ```Entities```.
+
+![alt text][entities]
+
+We need to build an entity. An entity is a portion of the user's input that you can use to provide a different response to a particular intent. 
+
+For example, a user who submits a bug will need to provide different information than a user who submits a featue request. Let's create an entity to handle that.
+
+Click ```Add entity```.
+
+![alt text][addEntity]
+
+Notice the ```Entity name``` field is denoted with an at-symbol or @ sign. 
+
+Name your entity ```problem_type```.
+
+![alt text][createNewEntity]
+
+Let's provide 3 values for entities - ```bug```, ```feature request```, and ```how do I```. If you can think of synonyms feel free to provide those as well. 
+
+Click ```Add value``` to add an entity value to the list below.
+
+![alt text][entityValues]
+
+You have now created an entity! Let's pull our intent and entity together with dialog.
 
 ## Build Dialog
+
+![alt text][dialog]
 
 
 ## Try it!
