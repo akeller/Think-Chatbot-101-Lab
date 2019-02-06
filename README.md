@@ -52,14 +52,21 @@ Your skill should look something like this. Click ```Create```.
 
 ## Build Intents
 
+Once you've created a skill, you can add your intents. An intent is a goal or purpose of the uer's input. Think about what you may want to help your user complete when working through the creation of a support ticket.
+
+Click ```Add intent```.
+
 ![alt text][addIntent]
 
+
+
 ## Build Entities
+
 
 ## Build Dialog
 
 
-## Test it out!
+## Try it!
 
 
 ## Congratulations! 
