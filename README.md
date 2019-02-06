@@ -32,10 +32,31 @@ Depending on the connection, this next step may spin for a bit as your Watson As
 
 You are now ready to start building your bot!
 
-## Build intents and entities
+## Create a Skill
 
+Your Watson Assistant instance should load and take you to a page where you can see information about the steps to build your assistants. Click ```Create a Skill``` to start building.
 
-## Build dialog
+![alt text][createSkillButton]
+
+If you had skills already created, you would see them below. Click ```Create new```.
+
+![alt text][createNewSkill]
+
+Name your skill something useful - ```Support Ticket```. If you or your users speak a language other than English, take note of the available options in the language dropdown.
+
+![alt text][addDialogSkill]
+
+Your skill should look something like this. Click ```Create```.
+
+![alt text][skillFilled]
+
+## Build Intents
+
+![alt text][addIntent]
+
+## Build Entities
+
+## Build Dialog
 
 
 ## Test it out!
@@ -78,6 +99,7 @@ Take a look at the following patterns and tutorials to make your chatbot more ro
 [createScreen]: /images/createScreen.png
 [launchTool]: /images/launchTool.png
 [createSkillButton]: /images/createSkillButton.png
+[createNewSkill]: /images/createNewSkill.png
 [addDialogSkill]: /images/addDialogSkill.png
 [skillFilled]: /images/skillFilled.png
 [addIntent]: /images/addIntent.png
