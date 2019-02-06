@@ -104,7 +104,32 @@ You have now created an entity! Let's pull our intent and entity together with d
 
 ## Build Dialog
 
+Working with our intent and entity, we can start diagramming out our dialog. 
+
+Click ```Dialog```.
+
 ![alt text][dialog]
+
+If a dialog tree has already been started, we would see it below. Let's create one.
+
+Click ```Create```. (Additionally you can click 'x' if the chat popups in the right hand corner like you see in the screenshot)
+
+![alt text][createDialog]
+
+Notice there are two nodes created automatically. When adding new nodes, remember to put them between the "Welcome" node and the "Anything else" node. Nodes that are listed after the "Anything else" node will not be evaluated. Evaluation order may matter in your dialog tree.
+
+Click ```Add node```. This will add a node between the two existing nodes.
+
+![alt text][addNode]
+
+Your node has been placed in the dialog tree and is ready to be constructed.
+
+![alt text][newNode]
+
+Let's start by adding our intent to the ```If assistant recognizes: ``` field. Click the field and notice you can filter by # or intents. Find the ```#createTicket``` intent you created in an earlier step.
+
+In the dialog tree you can see the intent name is listed in the node. Feel free to name the node as well.
+
 
 
 ## Try it!
@@ -162,4 +187,12 @@ Take a look at the following patterns and tutorials to make your chatbot more ro
 [createDialog]: /images/createDialog.png
 [addNode]: /images/addNode.png
 [newNode]: /images/newNode.png
+[dialogAddIntent]: /images/dialogAddIntent.png
+[dialogAddText]: /images/dialogAddText.png
+[dialogTryText]: /images/dialogTryText.png
+[dialogCustomize]: /images/dialogCustomize.png
+[dialogSlot]: /images/dialogSlot.png
+[dialogSlot]: /images/dialogSlotTest.png
+
+
 [chatstack]: /images/chatstack.png
