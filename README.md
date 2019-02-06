@@ -130,9 +130,43 @@ Let's start by adding our intent to the ```If assistant recognizes: ``` field. C
 
 In the dialog tree you can see the intent name is listed in the node. Feel free to name the node as well.
 
+![alt text][dialogAddIntent]
 
+If you name the node, you will see both the name and what the assistant recognizes in the top level information of the node.
 
-## Try it!
+![alt text][dialogAddText]
+
+Let's add some response text and test it out in the console. Type a response like ```I can help with that, but I need some more information``` so your user knows that Watson understands the #createTicket intent. 
+
+Click the ```Try It``` button in the upper left corner to open up the ```Try it out``` panel.
+
+Type in one of your user examples in your intent like ```I need help```. Does Watson respond?
+
+![alt text][dialogTryText]
+
+Let's make this a little more useful. Hit "Customize" to the right of the Create Ticket name field. A modal will appear.
+
+We are going to be using slots, so turn on the toggle and check the ```Prompt for everything``` box.
+
+Hit ```Apply```.
+
+![alt text][dialogCustomizeSlot]
+
+Your node has changed. ```Then check for:``` provides a new set of fields. 
+
+In the ```Check for``` column find your ```@problem_type``` entity. The context variable (denoted by the $) will autopopulate, keep it. 
+
+In the ```If not present, ask``` column type ```What kind of ticket would you like to submit?```
+
+This allows us to look for the information if its already provided, or ask for it since we will need it to complete this intent.
+
+![alt text][dialogSlot]
+
+Let's test it! You might want to hit ```Clear``` in the ```Try it out``` panel. 
+
+![alt text][dialogSlotTest] 
+
+Watson should have correctly identified the intent, and prompted you with the slot question. If you answer with one of the entity values, you should see it in bold, followed by the response. 
 
 
 ## Congratulations! 
@@ -190,9 +224,9 @@ Take a look at the following patterns and tutorials to make your chatbot more ro
 [dialogAddIntent]: /images/dialogAddIntent.png
 [dialogAddText]: /images/dialogAddText.png
 [dialogTryText]: /images/dialogTryText.png
-[dialogCustomize]: /images/dialogCustomize.png
+[dialogCustomizeSlot]: /images/dialogCustomizeSlot.png
 [dialogSlot]: /images/dialogSlot.png
-[dialogSlot]: /images/dialogSlotTest.png
+[dialogSlotTest]: /images/dialogSlotTest.png
 
 
 [chatstack]: /images/chatstack.png
