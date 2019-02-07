@@ -8,7 +8,9 @@ In IBM Cloud there are often multiple ways to accomplish the same steps. In the 
 
 ## Create an instance of the Watson Assistant service
 
-Navigate to the IBM Cloud dashboard. Click ```Catalog``` in the upper menu bar.
+Navigate to the IBM Cloud dashboard: https://ibm.biz/Bd2Sfe
+
+Click ```Catalog``` in the upper menu bar.
 
 ![alt text][dashboardCatalog]
 
