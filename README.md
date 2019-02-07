@@ -188,15 +188,23 @@ Take a look at the following patterns and tutorials to make your chatbot more ro
 ## Patterns
 
 * https://developer.ibm.com/patterns/create-cognitive-retail-chatbot/
-* 
+* https://developer.ibm.com/patterns/compose-bots-using-an-agent-bot/
+* https://developer.ibm.com/patterns/create-cognitive-banking-chatbot/
+* https://developer.ibm.com/patterns/create-an-agent-for-rental-car-reservations/
+* https://developer.ibm.com/patterns/create-a-virtual-reality-speech-sandbox/
+* https://developer.ibm.com/patterns/build-a-virtual-assistant-for-ios-with-watson/
+* https://developer.ibm.com/patterns/build-an-ai-powered-ar-character-in-unity-with-arkit/
+* https://developer.ibm.com/patterns/watson-conversation-with-ibm-linuxone-systems/
 
 ## Tutorials
 
 * https://developer.ibm.com/tutorials/cc-build-chatbot-ibm-cloud/
 * https://developer.ibm.com/tutorials/set-up-your-own-instance-of-a-chatbot-and-deploy-it-to-the-kubernetes-environment-on-ibm-cloud/
+* https://developer.ibm.com/tutorials/learn-how-to-export-import-a-watson-assistant-workspace/
 
 ## Additional Resources
 
+* https://developer.ibm.com/technologies/conversation/ 
 * https://developer.ibm.com/code/exchanges/bots/
 
 
@@ -229,6 +237,4 @@ Take a look at the following patterns and tutorials to make your chatbot more ro
 [dialogCustomizeSlot]: /images/dialogCustomizeSlot.png
 [dialogSlot]: /images/dialogSlot.png
 [dialogSlotTest]: /images/dialogSlotTest.png
-
-
 [chatstack]: /images/chatstack.png
