@@ -1,0 +1,1260 @@
+{
+  "name": "Support Ticket",
+  "intents": [
+    {
+      "intent": "cancelTicket",
+      "examples": [
+        {
+          "text": "I need to cancel my ticket."
+        },
+        {
+          "text": "Delete"
+        },
+        {
+          "text": "Cancel support ticket."
+        },
+        {
+          "text": "Please cancel the ticket."
+        },
+        {
+          "text": "Delete my ticket."
+        },
+        {
+          "text": "I no longer need help."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "About you"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "createTicket",
+      "examples": [
+        {
+          "text": "I need to report an issue."
+        },
+        {
+          "text": "I want to create a ticket."
+        },
+        {
+          "text": "I have a problem."
+        },
+        {
+          "text": "Problem"
+        },
+        {
+          "text": "I found a bug."
+        },
+        {
+          "text": "I need help."
+        },
+        {
+          "text": "I'm stuck"
+        },
+        {
+          "text": "Something is wrong."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "modifyTicket",
+      "examples": [
+        {
+          "text": "Add information to a ticket."
+        },
+        {
+          "text": "Adjust my support ticket."
+        },
+        {
+          "text": "Change my ticket"
+        },
+        {
+          "text": "I need to make changes."
+        },
+        {
+          "text": "I need to modify a ticket."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Goodbye"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Another joke"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "problem_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bug",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "feature request",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "how do i",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "outage",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "priority_level",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "high",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "urgent",
+          "synonyms": [
+            "sev1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "medium",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "low",
+          "synonyms": [
+            "normal"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "platform",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Linux",
+          "synonyms": [
+            "Debian",
+            "Ubuntu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MacOS",
+          "synonyms": [
+            "OSX",
+            "MacBook",
+            "MacBook Pro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Windows",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "iOS",
+          "synonyms": [
+            "iPhone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Android",
+          "synonyms": [
+            "Google"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What kind of ticket would you like to create?"
+      },
+      "parent": "slot_2_1549473955385",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1549473955385",
+      "previous_sibling": "handler_3_1549473955385"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1549473955385",
+      "context": {
+        "problem_type": "@problem_type"
+      },
+      "conditions": "@problem_type",
+      "event_name": "input",
+      "dialog_node": "handler_3_1549473955385"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I can help with that, but I will need some more information."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1549403700592",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_1_1549473955376",
+      "previous_sibling": "slot_2_1549473955385"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1549403700592",
+      "variable": "$priority_level",
+      "dialog_node": "slot_4_1549566686284",
+      "previous_sibling": "handler_1_1549473955376"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1549403700592",
+      "variable": "$platform",
+      "dialog_node": "slot_7_1549566698856",
+      "previous_sibling": "slot_4_1549566686284"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1549403700592",
+      "metadata": {},
+      "variable": "$problem_type",
+      "dialog_node": "slot_2_1549473955385"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1549566698856",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1549566698856",
+      "previous_sibling": "handler_8_1549566698856"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1549566698856",
+      "context": {
+        "platform": "@platform"
+      },
+      "conditions": "@platform",
+      "event_name": "input",
+      "dialog_node": "handler_8_1549566698856"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What priority level is this ticket?"
+      },
+      "parent": "slot_4_1549566686284",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1549566686284",
+      "previous_sibling": "handler_5_1549566686284"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1549566686284",
+      "context": {
+        "priority_level": "@priority_level"
+      },
+      "conditions": "@priority_level",
+      "event_name": "input",
+      "dialog_node": "handler_5_1549566686284"
+    },
+    {
+      "type": "frame",
+      "title": "Create Ticket",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, that's all I need for now."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#createTicket",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1549403700592",
+      "digress_out": "allow_all",
+      "previous_sibling": "Welcome",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Talk to you later."
+              },
+              {
+                "text": "See you next time."
+              },
+              {
+                "text": "Goodbye!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_3_1549558436974",
+      "previous_sibling": "node_2_1549558402555"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1549558436974"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there, bot here!"
+              },
+              {
+                "text": "Hello!"
+              },
+              {
+                "text": "How's it going?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_2_1549558402555",
+      "previous_sibling": "node_1_1549557749441"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PATIENT: Doctor, I need your help. I'm addicted to checking my Twitter!\n\nDOCTOR: I'm so sorry, I don't follow."
+              },
+              {
+                "text": "If it weren't for C, we'd all be programming in BASI and OBOL. "
+              },
+              {
+                "text": "There are 10 types of people in the world: those who understand binary, and those who don't. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_1_1549557749441",
+      "previous_sibling": "node_1_1549403700592"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "e4138295-9802-4678-8e57-1eb2f047e216",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
